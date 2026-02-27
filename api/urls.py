@@ -31,9 +31,9 @@ def health_check(request):
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Talkter API",
+        title="DjangoProject API",
         default_version="v1",
-        description="Talkter API 문서",
+        description="DjangoProject API 문서",
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(email="devch1013@gmail.com"),
         license=openapi.License(name="BSD License"),
